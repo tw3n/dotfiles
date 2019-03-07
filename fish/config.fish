@@ -1,0 +1,25 @@
+#
+set -gx FISH_CONFIG_PATH $HOME/.config/fish
+
+# Fish Alias
+set -gx fish_function_path $fish_function_path $FISH_CONFIG_PATH/alias
+
+# fishline
+set FLINE_PATH $FISH_CONFIG_PATH/fishline
+source $FLINE_PATH/init.fish
+
+# Theme
+set FLCLR_ROOT_BG_USER      black
+set FLCLR_ROOT_FG_USER      white
+set FLCLR_FULLPWD_BG        purple
+set FLCLR_FULLPWD_FG        white
+set FLCLR_STATUS_BG         red
+set FLCLR_STATUS_FG         white
+set FLCLR_GIT_BG_CLEAN      green
+set FLCLR_GIT_FG_CLEAN      black
+set FLCLR_GIT_BG_DIRTY      blue
+set FLCLR_GIT_FG_DIRTY      white
+set FLCLR_GIT_BG_DETACHED   $__256_red
+set FLCLR_GIT_FG_DETACHED   white
+set FLCLR_JOBS_BG           $__256_yellow
+set FLCLR_JOBS_FG           black
