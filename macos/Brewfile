@@ -7,7 +7,9 @@ brew "jq"
 brew "mas"
 brew "node"
 brew "trash"
+brew "tree"
 brew "wifi-password"
+brew "wrk"
 brew "yarn"
 
 # Casks
