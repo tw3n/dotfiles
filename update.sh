@@ -11,4 +11,9 @@ brew cleanup
 # Mac App Store
 mas upgrade
 
+# fishline
+cd fish/fishline
+git pull
+cd -
+
 echo "Done"

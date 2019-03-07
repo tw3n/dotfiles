@@ -23,6 +23,12 @@ if ! grep -q fish /etc/shells; then
     chsh -s /usr/local/bin/fish
 fi
 
+# fishline
+if [ ! -d $(pwd)/fish/fishline ]; then
+    echo "Installing fishline..."
+    git clone https://github.com/0rax/fishline.git/ $(pwd)/fish/fishline
+fi
+
 # Symlinks
 ln -fns $(pwd)/fish ~/.config/fish
 ln -fns $(pwd)/yed ~/Library/yWorks/yEd/palettes
