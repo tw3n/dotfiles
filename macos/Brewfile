@@ -1,0 +1,34 @@
+# Brews
+brew "cmake"
+brew "fish"
+brew "gibo"
+brew "go"
+brew "jq"
+brew "mas"
+brew "node"
+brew "trash"
+brew "wifi-password"
+brew "yarn"
+
+# Casks
+# cask "1password"
+cask "appcleaner"
+cask "docker"
+cask "firefox"
+cask "font-fira-code"
+cask "font-monofur-for-powerline"
+cask "insomnia"
+cask "protonvpn"
+cask "tableplus"
+cask "visual-studio-code"
+cask "vlc"
+cask "yed"
+
+# Mac App Store
+mas "Airmail 3", id: 918858936
+mas "Keynote", id: 409183694
+mas "Noizio", id: 928871589
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Reeder", id: 880001334
+mas "Slack", id: 803453959
