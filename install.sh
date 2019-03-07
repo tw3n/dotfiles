@@ -6,7 +6,7 @@ echo "
 
 # Homebrew
 if hash brew &> /dev/null; then
-	echo "Updating Homebrew..."
+    echo "Updating Homebrew..."
     brew update
 else
     echo "Installing Homebrew..."
