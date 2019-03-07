@@ -1,0 +1,37 @@
+{
+    "docker.showExplorer": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.folding": false,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco",
+    "editor.fontSize": 11,
+    "editor.fontWeight": "500",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "Brewfile": "ruby",
+        "Dockerfile.*": "dockerfile",
+        "*.cnf": "ini"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "go.gopath": "/Users/xavierhurst/Desktop/go",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "search.exclude": {
+        "**/bower_components": true,
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0.5,
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.startupEditor": "none",
+    "zenMode.fullScreen": false,
+}
