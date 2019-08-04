@@ -3,7 +3,8 @@
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.folding": false,
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
     "editor.fontSize": 11,
     "editor.fontWeight": "500",
     "editor.formatOnSave": true,
@@ -20,9 +21,10 @@
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "go.gopath": "/Users/xavierhurst/Desktop/go",
+    "go.useLanguageServer": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "search.exclude": {
+        "**/.next": true,
         "**/bower_components": true,
         "**/node_modules": true,
         "**/vendor": true
@@ -33,5 +35,6 @@
     "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.startupEditor": "none",
+    "workbench.tree.renderIndentGuides": "none",
     "zenMode.fullScreen": false,
 }
