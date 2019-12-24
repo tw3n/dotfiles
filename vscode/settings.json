@@ -1,5 +1,8 @@
 {
     "docker.showExplorer": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.folding": false,
@@ -9,7 +12,6 @@
     "editor.fontWeight": "500",
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
-    "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
     "explorer.confirmDragAndDrop": false,
     "files.associations": {
@@ -36,5 +38,5 @@
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.startupEditor": "none",
     "workbench.tree.renderIndentGuides": "none",
-    "zenMode.fullScreen": false,
+    "zenMode.fullScreen": false
 }
