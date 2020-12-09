@@ -1,4 +1,3 @@
 conf.d/system.fish
 fishline
 fish_variables
-fishd.*
