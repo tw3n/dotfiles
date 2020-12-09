@@ -1,4 +1,6 @@
 # Brews
+brew "ansible"
+brew "awscli"
 brew "cmake"
 brew "fish"
 brew "gibo"
@@ -15,6 +17,7 @@ brew "yarn"
 # Casks
 # cask "1password"
 cask "appcleaner"
+cask "arduino"
 cask "docker"
 cask "firefox"
 cask "font-fira-code"
@@ -26,15 +29,15 @@ cask "pock"
 cask "protonvpn"
 cask "signal"
 cask "tableplus"
+cask "typora"
 cask "visual-studio-code"
 cask "vlc"
 cask "yed"
 
 # Mac App Store
-mas "Airmail 3", id: 918858936
 mas "Keynote", id: 409183694
-mas "Noizio", id: 928871589
+mas "Microsoft To Do", id: 1274495053
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Reeder", id: 880001334
 mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
