@@ -33,7 +33,7 @@
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": 0.5,
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.startupEditor": "none",
     "workbench.tree.renderIndentGuides": "none"
