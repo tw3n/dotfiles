@@ -8,6 +8,7 @@ brew "go"
 brew "jq"
 brew "mas"
 brew "node"
+# brew "rust" Not recommended, see: https://www.rust-lang.org/tools/install
 brew "trash"
 brew "tree"
 brew "wifi-password"
@@ -15,7 +16,6 @@ brew "wrk"
 brew "yarn"
 
 # Casks
-# cask "1password"
 cask "appcleaner"
 cask "arduino"
 cask "docker"
@@ -25,7 +25,7 @@ cask "font-monofur-for-powerline"
 cask "gpg-suite"
 cask "insomnia"
 cask "iterm2"
-cask "pock"
+cask "notion"
 cask "protonvpn"
 cask "signal"
 cask "tableplus"
@@ -33,11 +33,3 @@ cask "typora"
 cask "visual-studio-code"
 cask "vlc"
 cask "yed"
-
-# Mac App Store
-mas "Keynote", id: 409183694
-mas "Microsoft To Do", id: 1274495053
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Slack", id: 803453959
-mas "Xcode", id: 497799835
