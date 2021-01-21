@@ -1,6 +1,6 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll": true
     },
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
@@ -30,6 +30,7 @@
         "**/node_modules": true,
         "**/vendor": true
     },
+    "stylelint.packageManager": "yarn",
     "telemetry.enableTelemetry": false,
     "window.zoomLevel": 0.5,
     "workbench.activityBar.visible": true,
