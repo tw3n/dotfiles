@@ -1,3 +1,3 @@
 # Fish
 
-Symlink folder to `~/.config/fish`.
+Symlink directory to `~/.config/fish`.

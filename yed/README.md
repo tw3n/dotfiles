@@ -1,3 +1,3 @@
 # yEd
 
-Symlink folder to `~/Library/yWorks/yEd/palettes`.
+Symlink directory to `~/Library/yWorks/yEd/palettes`.
