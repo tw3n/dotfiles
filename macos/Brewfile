@@ -9,6 +9,7 @@ brew "kubie"
 brew "mas"
 brew "node"
 # brew "rust" Not recommended, see: https://www.rust-lang.org/tools/install
+brew "svn" # Required by font-monofur-for-powerline
 brew "trash"
 brew "tree"
 brew "wifi-password"
