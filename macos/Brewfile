@@ -19,6 +19,7 @@ brew "yarn"
 # Casks
 cask "appcleaner"
 cask "arduino"
+cask "autodesk-fusion360"
 cask "docker"
 cask "firefox"
 cask "font-fira-code"
