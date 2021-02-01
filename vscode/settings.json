@@ -22,6 +22,7 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "go.lintTool": "golangci-lint",
     "go.useLanguageServer": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "search.exclude": {
