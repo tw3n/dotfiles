@@ -19,12 +19,13 @@
         "*.cnf": "ini"
     },
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
     "go.lintTool": "golangci-lint",
+    "go.toolsManagement.autoUpdate": true,
     "go.useLanguageServer": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "redhat.telemetry.enabled": false,
     "search.exclude": {
         "**/.next": true,
         "**/bower_components": true,
@@ -32,11 +33,17 @@
         "**/vendor": true
     },
     "stylelint.packageManager": "yarn",
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "window.zoomLevel": 0.5,
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Ayu Dark Bordered",
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.startupEditor": "none",
-    "workbench.tree.renderIndentGuides": "none"
+    "workbench.tree.renderIndentGuides": "none",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
 }
