@@ -1,4 +1,5 @@
 {
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
@@ -26,6 +27,7 @@
     "go.useLanguageServer": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "redhat.telemetry.enabled": false,
+    "scssFormatter.singleQuote": true,
     "search.exclude": {
         "**/.next": true,
         "**/bower_components": true,
@@ -33,11 +35,16 @@
         "**/vendor": true
     },
     "stylelint.packageManager": "yarn",
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "scss"
+    ],
     "telemetry.telemetryLevel": "off",
     "window.zoomLevel": 0.5,
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Ayu Dark Bordered",
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
     "workbench.startupEditor": "none",
     "workbench.tree.renderIndentGuides": "none",
     "[go]": {
@@ -45,5 +52,6 @@
     },
     "[typescriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
+    },
+    "zenMode.fullScreen": false
 }
