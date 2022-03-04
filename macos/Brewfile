@@ -1,5 +1,4 @@
 # Brews
-brew "ansible"
 brew "aws-iam-authenticator"
 brew "awscli"
 brew "docker-credential-helper-ecr"
@@ -13,6 +12,7 @@ brew "jq"
 brew "kubie"
 brew "node@16"
 # brew "rust" Not recommended, see: https://www.rust-lang.org/tools/install
+brew "shellcheck"
 brew "terraform"
 brew "trash"
 brew "tree"
