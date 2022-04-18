@@ -1,9 +1,5 @@
 # Fish
 
-Symlink directory to `~/.config/fish`.
-
----
-
 Add to the known shells and set as default:
 
 ```
