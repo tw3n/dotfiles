@@ -1,6 +1,6 @@
 # macOS
 
-Disable the `Last login` message on new terminal session:
+Disable the `Last login` message on new terminal sessions:
 
 ```
 touch ~/.hushlogin
