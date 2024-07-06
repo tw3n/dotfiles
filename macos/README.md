@@ -9,6 +9,7 @@ touch ~/.hushlogin
 Install packages:
 
 ```
+brew tap hashicorp/tap
 brew tap homebrew/cask-fonts
 brew bundle --file=./Brewfile
 ```
