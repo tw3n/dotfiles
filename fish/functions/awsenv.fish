@@ -10,7 +10,8 @@ function awsenv --argument-names profile
     __awsenv_disconnect 2>/dev/null
 
     set output (aws-vault exec --duration=1h "$profile" -- env)
-    if [ "$status" -eq 0 ]
+
+    if test $status -eq 0
         eval (printf "export %s\n" $output | grep "^export AWS_")
         set -gx AWS_PROFILE "$profile"
         echo 1>&2
